@@ -1,0 +1,211 @@
+body {
+  background: black;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.light {
+  background: red;
+  flex: 1;
+  outline: #000 10px solid;
+  opacity: 0.2;
+  animation: 1s alternate infinite;
+  border-radius: 20px;
+  box-shadow: 0 0 40px 0 red;
+}
+.light1 {
+  animation-name: first;
+}
+.light2 {
+  animation-name: second;
+}
+.light3 {
+  animation-name: third;
+}
+.light4 {
+  animation-name: fourth;
+}
+.light5 {
+  animation-name: fifth;
+}
+.light6 {
+  animation-name: sixth;
+}
+.light7 {
+  animation-name: seventh;
+}
+.light8 {
+  animation-name: eighth;
+}
+.light9 {
+  animation-name: ninth;
+}
+.light10 {
+  animation-name: tenth;
+}
+
+@keyframes first {
+  0% {
+    opacity: 0.2;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes second {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.2;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes third {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.2;
+  }
+  30% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fourth {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.2;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fifth {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sixth {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes seventh {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0.2;
+  }
+  70% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes eighth {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0.2;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes ninth {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0.2;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+@keyframes tenth {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
